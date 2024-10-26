@@ -1,0 +1,46 @@
+/*General*/
+* {/*Resets all the margins to 0*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: red;
+}
+
+body{
+    padding: 0px;
+}
+
+
+/*NAV BAR CSS*/
+nav {
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+    margin-bottom: 10px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
